@@ -1,263 +1,687 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js ss-preload" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gsn portfolio</title>
-    <link rel="shortcut icon" href="./images/GSN.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    
-    
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>GSN</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+    <link rel="manifest" href="site.webmanifest">
+
 </head>
-<body>
 
-    <!-- navigation bar -->
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fa fa-bars"></i>
-        </label>
-        <label class="logo"><a href="#home">G<span>S</span>N</a></label>
-        <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">portfolio</a></li>
-            <li><a href="#contact">contact</a></li>
-        </ul>
-    </nav>
+<body id="top">
 
 
-    <!-- end of navigation -->
-
-     <!-- hero section -->
-        <div class="hero">
-            <div class="content">
-                <h2>Hello <span>I'</span>m</h2>
-                <h1>Go<span>p</span>ik<span>a</span> Sa<span>t</span>hee<span>s</span>an</h1>
-                <p class="info">Web Developer</p>
-                <!-- <button class="btn"><a href="#about">About Me</a> </button> -->
-                <div class="social">
-                    <i class="fa fa-codepen"><a href="https://codepen.io/Gopika-Satheesan"></a></i>
-                    <i class="fa fa-github"><a href="https://github.com/Gopika-S22"></a></i>
-                    <i class="fa fa-linkedin"><a href="https://www.linkedin.com/in/gopika-satheesan/"></a></i>
-                </div>
-                
-            
-            </div>
-            
-            
+    <!-- # preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
         </div>
-     <!-- end of hero section -->
-    
-<!-- about section -->
+    </div>
 
-        <div class="container" id="about">
-            <h1 class="title">Ab<span>o</span>ut</h1>
-            <!-- <h2 class="shadow">about</h2> -->
-             <p>- who I am? -</p>
-             <p>Experienced Web Developer with a proven track record of delivering high-quality web solutions. With one year of hands-on experience in the industry, I excel in crafting dynamic and user-friendly websites that meet clients’ objectives effectively. Passionate about staying updated with the latest web technologies and trends, I bring innovative ideas to every project I undertake.Committed to continuous learning and professional growth, I actively seek out opportunities to expand my skills and knowledge base. With a strong foundation in computer science principles and a passion for problem-solving, I am eager to contribute my expertise to innovative projects and drive business success.</p>
-             <div class="row">
-                <div class="column">
-                    <img src="./images/GSN.png" alt="" class="profile">
-                </div>
-                <div class="column2">
-                    <h3>Web Developer</h3>
-                    <h6 class="quote">
-                        "WORK HARD, DREAM BIG.....NEVER GIVE UP"
-                    </h6>
-                    <li><i class="fa fa-graduation-cap"><span> Education : BCA</span></i></li>
-                    <li><i class="fa fa-envelope"><span>Email:
-                        gopikasatheeshnair123@gmail.com</span></i></li>
-                    <li><i class="fa fa-home" aria-hidden="true"><span>City:kochi,kerala</span></i></li>
-                    <li id="last"><i class="fa fa-laptop"><span>Freelance:
-                        Available</span></i></li>
-                    <div class="social">
-                        <i class="fa fa-codepen"><a href="https://codepen.io/Gopika-Satheesan"></a></i>
-                        <i class="fa fa-github"><a href="https://github.com/Gopika-S22"></a></i>
-                        <i class="fa fa-linkedin"><a href="https://www.linkedin.com/in/gopika-satheesan/"></a></i>
+
+    <!-- # page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <!-- ## site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="header-mobile">
+                <span class="mobile-home-link"><a href="index.html">GSN.</a></span>
+                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
+            </div>
+
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li><a href="index.html" class="home-link">GSN.</a></li>
+                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
+                        <li><a href="#about" class="smoothscroll">About</a></li>
+                        <li><a href="#works" class="smoothscroll">Works</a></li>
+                        <li><a href="#contact" class="smoothscroll">Say Hello</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header> <!-- end s-header -->
+
+
+        <!-- ## main content
+        ==================================================- -->
+        <main class="s-content">
+
+
+            <!-- ### intro
+            ================================================== -->
+            <section id="intro" class="s-intro target-section">
+
+                <div class="row intro-content wide">
+
+                    <div class="column">
+                        <div class="text-pretitle with-line">
+                            Hello There.
+                        </div>
+
+                        <h1 class="text-huge-title">
+                            I am Gopika S, <br>
+                            a Web Designer <br>
+                            & Developer<br> 
+                           
+                        </h1>
                     </div>
+
+                    <ul class="intro-social">
+                        <li><a style="color: #fff;" href="https://www.linkedin.com/in/gopika-satheesan/">Linkedin</a></li>
+                        <li><a href="https://github.com/Gopika-S22">Github</a></li>
+                        <!-- <li><a href="#0">Dribbble</a></li> -->
+                        <li><a href="https://codepen.io/Gopika-Satheesan">Codepen</a></li>
+                    </ul>
+
+                </div> <!-- end intro content -->
+
+                <a href="#about" class="intro-scrolldown smoothscroll">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/></svg>
+                </a>
+
+            </section> <!-- end s-intro -->
+
+
+            <!-- ### about
+            ================================================== -->
+            <section id="about" class="s-about target-section">
+
+
+                <div class="row about-info wide" data-animate-block>
+
+                    <div class="column lg-6 md-12 about-info__pic-block">
+                        <img src="images/gsn-about.png" style="border-radius: 50%; width: 70%; height: 70%; margin-left: 30px;"
+                              alt="" class="about-info__pic" data-animate-el>
+                    </div>
+
+                    <div class="column lg-6 md-12">
+                        <div class="about-info__text" >
+
+                            <h2 class="text-pretitle with-line" data-animate-el>
+                                About
+                            </h2>
+                            <p class="attention-getter" style="font-size: 1.5rem; text-align: justify;" data-animate-el>
+                                Experienced Web Developer with a proven track record of delivering 
+                                high-quality web solutions. With two year of hands-on experience in
+                                 the industry, I excel in crafting dynamic and user-friendly websites
+                                  that meet clients’ objectives effectively. Passionate about staying
+                                   updated with the latest web technologies and trends, Committed to 
+                                    continuous learning and professional growth, I actively seek out
+                                     opportunities to expand my skills and knowledge base. 
+                            </p>
+                            <a href="#contact" class="btn btn--medium u-fullwidth" data-animate-el>Connect With Me</a>
+
+                        </div>
+                    </div>
+                </div> <!-- about-info -->
+
+
+                <div class="row about-expertise" data-animate-block>
+                    <div class="column lg-12">
+
+                        <h2 class="text-pretitle" data-animate-el>Expertise</h2>
+
+                        <ul class="skills-list h1" data-animate-el>
+                            <li>UI Design</li>
+                            <li>Web Development</li>
+                            <li>Designing</li>
+                            <li>SEO</li>
+                            <li>Woocommerce</li>
+                            <li>headless cms</li>
+                        </ul>
+
+                    </div>
+                </div> <!-- end about-expertise -->
+
+
+                <div class="row about-timelines" data-animate-block>
+
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Experience
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Way We Design</h3>
+                                    <h5 class="timeline__meta">Web Developer</h5>
+                                    <p class="timeline__timeframe">August 2024 - Present</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p style="font-size: 1.5rem; text-align: justify;">
+                                        My role involves customizing themes and plugins to meet specific 
+                                        client requirements, managing website hosting and security, and 
+                                        maintaining smooth website functionality. Additionally, I focus 
+                                        on optimizing page performance for faster loading speeds and better 
+                                        SEO rankings. I also collaborate with digital marketers by improving 
+                                        website structure and implementing SEO best practices to enhance 
+                                        search engine visibility.
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Violet Frames</h4>
+                                    <h5 class="timeline__meta">Wordpress Developer</h5>
+                                    <p class="timeline__timeframe">May 2023 - april 2024</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p style="font-size: 1.5rem; text-align: justify;">
+                                        I have been responsible for designing, developing, and maintaining 
+                                        dynamic and responsive websites tailored to client needs. My 
+                                        expertise includes customizing WordPress themes and plugins to enhance 
+                                        functionality and user experience. I manage website hosting, security, 
+                                        and performance optimization to ensure seamless operation and fast loading speeds.</p>
+                                </div>
+                            </div>
+    
+                        </div> <!-- end timeline -->
+
+                    </div> <!-- end column -->
+
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Education
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h5 class="timeline__title">Bachelor of computer application (BCA)</h5>
+                                    <h4 class="timeline__meta">MG university</h3>
+                                    <h5 class="timeline__meta">Ilahia College of Arts and science</h5>
+                                    <p class="timeline__timeframe">2017 - 2020</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <!-- <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p> -->
+                                </div>
+                            </div>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Web Development</h4>
+                                    <h5 class="timeline__meta">CTS infotech</h5>
+                                    <p class="timeline__timeframe">2021 - 2022</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <!-- <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p> -->
+                                </div>
+                            </div>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Advanced WP Theme Development</h4>
+                                    <h5 class="timeline__meta">Udemy</h5>
+                                    <p class="timeline__timeframe">present</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <!-- <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p> -->
+                                </div>
+                            </div>
+    
+                        </div> <!-- end timeline -->
+                        
+                    </div> <!-- end column -->
+
+
+                </div> <!-- end about-timelines -->
+
+            </section> <!-- end s-about -->
+
+
+            <!-- ### works
+            ================================================== -->
+            <section id="works" class="s-works target-section">
+
+
+                <div class="row works-portfolio">
+
+                    <div class="column lg-12" data-animate-block>
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Recent Works
+                        </h2>
+                        <p class="h1" data-animate-el>
+                            Here are some of my favorite projects I have done lately. Feel free to check them out.
+                        </p>
+    
+                        <ul class="folio-list row block-lg-one-half block-stack-on-1000">
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-01">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/gallery/eversmile.png"
+                                               alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Website
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Ever Smile Dental Clinic
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="https://eversmiledentalclinic.com/" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-02">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/gallery/engineerbuilders.png" 
+                                              alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Web Development
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Engineerbuilders
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="https://theengineerbuilders.com/" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-03">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/gallery/abudhabi.png" 
+                                              alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Web Development
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            CADD abhudhabi
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="https://caddabudhabi.com/" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-04">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/gallery/ceasar.png"
+                                              alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Website
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Hotel Ceasar Palace
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="https://hotelceasarpalace.com/" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-05">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/gallery/eway.png" 
+                                             alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Web Design & Development
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Eway Dental Lab
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="https://ewaydentallab.com/" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-06">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/gallery/glaciere.png" 
+                                              alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Website
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Glaciere International
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="https://glaciereinternational.world/" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-07">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/gallery/rainbow.png" 
+                                              alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Website
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Rainbow Networks
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="https://rainbowsnetwork.com/" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-08">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/gallery/heaveninnmunnar.png" 
+                                              alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Website
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Heaven Inn Munnar
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="http://heaveninnmunnarresorts.com/" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+
+                            
+
+                        </ul> <!-- end folio-list -->
+
+                    </div> <!-- end column -->
+
+
+                    <!-- Modal Templates Popup
+                    -------------------------------------------- -->
+                    <div id="modal-01" hidden>
+                        <div class="modal-popup" style="height: 500px;">
+                            <img src="images/portfolio/gallery/eversmile.png" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Ever Smile Dental Clinic</h5>
+                                <p>Designed and developed a professional and user-friendly website for a dental clinic, focusing on a clean and modern layout with easy navigation..</p>
+                                <ul class="modal-popup__cat">
+                                    <li>UI design</li>
+                                    <li>Web Development</li>
+                                </ul>
+                                
+                            </div>
+                
+                            <a href="https://eversmiledentalclinic.com/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-02" hidden>
+                        <div class="modal-popup" style="height: 500px;">
+                            <img src="images/portfolio/gallery/engineerbuilders.png" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Engineerbuilders</h5>
+                                <p>Designing and developing stunning, high-performance website for interior design company,Aesthetic and modern layouts tailored to your brand.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Website Development</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://theengineerbuilders.com/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-03" hidden>
+                        <div class="modal-popup" style="height: 500px;">
+                            <img src="images/portfolio/gallery/abudhabi.png" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>CADDabhudhabi</h5>
+                                <p> Designing and developing professional website for CADD training institute. Our solutions are tailored to provide a seamless user experience, helping students and professionals access high-quality CAD, CAM, and CAE courses with ease.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Web Design & Development</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://caddabudhabi.com/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-04" hidden>
+                        <div class="modal-popup" style="height: 500px;">
+                            <img src="images/portfolio/gallery/ceasar.png" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Hotel Ceasar Palace</h5>
+                                <p>Beautiful, responsive designs tailored to  hotel’s unique identity, Seamless reservation functionality for a smooth guest experience.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Web Design & Development</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://hotelceasarpalace.com/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-05" hidden>
+                        <div class="modal-popup" style="height: 500px;">
+
+                            <img src="images/portfolio/gallery/eway.png" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Eway Dental Clinic</h5>
+                                <p>Designed and developed a professional and user-friendly website for a dental clinic, focusing on a clean and modern layout with easy navigation.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Web Design & Development</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://ewaydentallab.com/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-06" hidden>
+                        <div class="modal-popup" style="height: 500px;">
+                            <img src="images/portfolio/gallery/glaciere.png" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Glaciere International</h5>
+                                <p>Designing and developing professional, user-friendly, and engaging websites for international education consultancies. Our services cater to agencies assisting students with study abroad opportunities, university admissions, visa processing, and career counseling.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Web Design</li>
+                                    <li>Web Development</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://glaciereinternational.world/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-07" hidden>
+                        <div class="modal-popup" style="height: 500px;">
+                            <img src="images/portfolio/gallery/rainbow.png" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Rainbow Networks</h5>
+                                <p>designing and developing professional, user-friendly websites for CCTV installation and security service providers. Our websites are tailored to showcase surveillance solutions, services, and expertise, helping businesses attract clients and build trust.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Web Design</li>
+                                    <li>Web Development</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://rainbowsnetwork.com/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-08" hidden>
+                        <div class="modal-popup" style="height: 500px;">
+                            <img src="images/portfolio/gallery/heaveninnmunnar.png" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Heaven Inn Munnar</h5>
+                                <p>Beautiful, responsive designs tailored to  hotel’s unique identity, Seamless reservation functionality for a smooth guest experience.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Web Design</li>
+                                    <li>Web Development</li>
+                                </ul>
+                            </div>
+                
+                            <a href="http://heaveninnmunnarresorts.com/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                </div> <!-- end works-portfolio -->
+            
+                            
+
+
+            <!-- ### contact
+            ================================================== -->
+            <section id="contact" class="s-contact target-section">
+
+                <div class="row contact-top">
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle">
+                            Get In Touch
+                        </h2>
+
+                        <p class="h1">
+                            I love to hear from you.
+                            Whether you have a question or just 
+                            want to chat about design, tech & art — shoot me a message.
+                        </p>
+                    </div>
+                </div> <!-- end contact-top -->
+
+                <div class="row contact-bottom">
+                    <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Reach me at</h3>
+                        <p class="contact-links">
+                            <a href="mailto:gopikasatheeshnair123@gmail.com" class="mailtoui">gopikasatheeshnair123@gmail.com</a> <br>
+                            <a href="tel:+1975432345">+91 9188433746</a>
+                        </p>
+                    </div>
+                    <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
+                        <!-- <h3 class="text-pretitle">Social</h3> -->
+                        <ul class="contact-social">
+                            <!-- <li><a href="#0">Behance</a></li>
+                            <li><a href="#0">Dribble</a></li>
+                            <li><a href="https://www.linkedin.com/in/gopika-satheesan/">Linkedin</a></li>
+                            <li><a href="https://github.com/Gopika-S22">Github</a></li>
+                            <li><a href="https://codepen.io/Gopika-Satheesan">Codepen</a></li> -->
+                        </ul>
+                    </div>
+                    <div class="column lg-4 md-12">
+                        <a href="https://www.linkedin.com/in/gopika-satheesan/" class="btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
+                    </div>
+                </div> <!-- end contact-bottom -->
+
+            </section> <!-- end contact -->
+
+        </main> <!-- end s-content -->
+
+
+        <!-- ## footer
+        ================================================== -->
+        <footer class="s-footer">
+
+            <div class="row">
+                <div class="column ss-copyright">
+                    <span>© Copyright gsn</span> 
+                    <!-- <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">Themewagon</a></span> -->
                 </div>
-                
-             </div>
-             
-        </div>
 
-<!-- end of about section -->
-
-<!-- skills -->
-
-<section id="skills">
-    <div class="container" id="myskill">
-        <h1 class="title">My<span> S</span>ki<span>l</span>ls</h1>
-        <div class="skills">
-            <div class="skill">
-                <i class="fa fa-html5" id="html"></i>
-                <h3>HTML</h3>
-            </div>
-            <div class="skill">
-                <i class="fa fa-css3" id="css"></i>
-                <h3>CSS</h3>
-            </div>
-            <div class="skill">
-                <i class="fa fa-code" id="js"></i>
-                <h3>Javascript</h3>
-            </div>
-            <div class="skill">
-                <i class="fa fa-laptop" id="bts"></i>
-                <h3>Bootstrap</h3>
-            </div>
-            <div class="skill">
-                <i class="fa fa-wordpress" id="cms"></i>
-                <h3>WordPress</h3>
-            </div>
-            <div class="skill">
-                <i class="fa fa-desktop" id="php"></i>
-                <h3>PHP</h3>
-            </div>
-            <div class="skill">
-                <i class="fa fa-database" id="db"></i>
-                <h3>MySQL</h3>
-            </div>
-            <div class="skill">
-                <i class="fa fa-lightbulb-o" id="figma"></i>
-                <h3>Figma</h3>
-            </div>
-            <div class="skill">
-                <i class="fa fa-pencil" id="ps"></i>
-                <h3>Photoshop</h3>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- services -->
-<section>
-    <div class="container" id="services">
-        <h1 class="title">What <span> I </span>Do <span> ?</span></h1>
-        <div class="cards">
-            <div class="card" id="service1">
-                <i class="fa fa-laptop"></i>
-
-                <h2>Website Design and Development</h2>
-                <p>Creating unique website designs tailored to the client's brand and vision. Ensuring the website is mobile-friendly and works seamlessly across different devices and screen sizes.</p>
-                
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"/></svg>
+                    </a>
+                </div>
             </div>
 
-            <div class="card" id="service2">
-                <i class="fa fa-shopping-cart"></i>
+        </footer> <!-- end s-footer -->
 
-                <h2>E-commerce Development</h2>
-                <p>Creating and configuring e-commerce platform WooCommerce and Implementing secure payment processing systems to handle transactions.</p>
-            </div>
-
-            <div class="card" id="service3">
-                <i class="fa fa-wordpress"></i>
-
-                <h2>Content Management Systems (CMS)</h2>
-                <p>Customizing and developing websites using WordPress, including theme and plugin development.</p>
-            </div>
-
-            <div class="card" id="service4">
-                <i class="fa fa-headphones"></i>
-
-                <h2>Website Maintenance and Support</h2>
-                <p>Keeping the website updated with the latest security patches and software updates. Resolving technical issues and bugs that arise on the website</p>
-                
-            </div>
-
-            <div class="card" id="service5">
-                <i class="fa fa-google"></i>
-
-                <h2>Search Engine Optimization (SEO)</h2>
-                <p>Optimizing website content, meta tags, and structure to improve search engine rankings. Enhancing the technical aspects of the website, such as site speed, mobile-friendliness, and XML sitemaps</p>
-                
-            </div>
-
-            <div class="card" id="service4">
-                <i class="fa fa-lightbulb-o"></i>
-
-                <h2>Design</h2>
-                <p>Crafting intuitive and visually stunning user interfaces in Figma – bringing your design visions to life with seamless collaboration and creativity</p>
-                
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<!-- portfolio -->
-
-<div class="container" id="portfolio">
-    <h1 class="title">Po<span>r</span>t<span>f</span>ol<span>l</span>io</h1>
-    <p>collection of my projects</p>
-    <div class="row">
-        <div class="column">
-            <a href="./projectdetailportfolio.html">
-            <img src="./images/portfolio.png" alt="" class="img"></a>
-        </div>
-        <div class="column">
-            <a href="./projectdetaileversile.html"><img src="./images/eversmile.png" alt="" class="img"></a>
-        </div>
-        <div class="column">
-            <a href="./projectdetailhotelceasarpalace.html">
-            <img src="./images/project-hotelceasarpalace.png" alt="" class="img"></a>
-        </div>
-        <div class="column">
-            <a href="./vfs.html">
-            <img src="./images/vfs.png" alt="" class="img"></a>
-        </div>
-        <div class="column">
-            <a href="./heaveninmunnar.html">
-            <img src="./images/heaveninnmunnar.png" alt="" class="img"></a>
-        </div>
-        <div class="column">
-            <a href="./ewaydental.html">
-            <img src="./images/ewaydental.png" alt="" class="img"></a>
-        </div>
-        
-    </div>
-
-</div>
+    </div> <!-- end -s-pagewrap -->
 
 
-<!-- Contact -->
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
-<section>
-    <div class="container" id="contact">
-        <h1 class="title">Co<span>n</span>t<span>a</span>c<span></span>t</h1>
-        <p>Get in touch : Connect with me</p>
-
-        <div class="row" id="contactinfo">
-            <div class="column1" id="col1">
-                <img src="./images/girl-working with computer.png" alt="" class="cprofile">
-            </div>
-            <div class="column2" id="col2">
-                <h1>Gopika Satheesan</h1>
-                
-                <li><i class="fa fa-envelope"> gopikasatheeshnair123@gmail.com</i></li>
-                <li><i class="fa fa-phone"> +91 9188433746</i></li>
-                <li><i class="fa fa-home"> Kochi,Kerala</i></li>
-                
-                
-
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<!-- footer -->
-<footer>
-    <div class="ftr">
-                <p>copyright <span>&#169</span> gopikasn.com. created by gopika</p>
-    </div>
-</footer>
-<!-- footer -->
-
-    <script src="main.js"></script>
 </body>
 </html>
